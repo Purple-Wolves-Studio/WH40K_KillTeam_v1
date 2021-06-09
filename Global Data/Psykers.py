@@ -1,7 +1,5 @@
 # Psyker Data Repo
 
-import json
-
 
 psykers = [
     {   # Psybolt

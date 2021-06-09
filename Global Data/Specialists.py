@@ -1,7 +1,5 @@
 # Specialist Data Repo
 
-import json
-
 
 specialists = [
     {   # Leader

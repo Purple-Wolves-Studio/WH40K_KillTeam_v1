@@ -61,7 +61,6 @@ weapons = [
     },
     {   # Big Choppa
         "name":"Big Choppa",
-        "points":2,
         "notes":"",
         "profiles":[
             {
@@ -79,9 +78,27 @@ weapons = [
             },
         ],
     },
+    {   # Bolt Gun
+        "name":"Bolt Gun",
+        "notes":"",
+        "profiles":[
+            {
+                "pname":"Bolt Gun",
+                "stats":[
+                    {
+                        "range":"24\"",
+                        "type":"Rapid Fire 1",
+                        "strength":"4",
+                        "armorpen":"0",
+                        "damage":"1",
+                        "abilities":""
+                    },
+                ],
+            },
+        ],
+    },
     {   # Big Shoota
         "name":"Big Shoota",
-        "points":0,
         "notes":"",
         "profiles":[
             {
@@ -101,7 +118,6 @@ weapons = [
     },
     {   # Bolt Pistol
         "name":"Bolt Pistol",
-        "points":0,
         "notes":"",
         "profiles":[
             {
@@ -121,7 +137,6 @@ weapons = [
     },
     {   # Burna
         "name":"Burna",
-        "points":0,
         "notes":"This weapon can be used as a ranged weapon and a melee weapon. When making shooting attacks or firing Overwatch with this weapon, use the ranged profile; when making close combat attacks, use the melee profile.",
         "profiles":[
             {
@@ -154,7 +169,6 @@ weapons = [
     },
     {   # Burst Cannon
         "name":"Burst Cannon",
-        "points":0,
         "notes":"",
         "profiles":[
             {
@@ -174,7 +188,6 @@ weapons = [
     },
     {   # Chainsword
         "name":"Chainsword",
-        "points":0,
         "notes":"",
         "profiles":[
             {
@@ -194,7 +207,6 @@ weapons = [
     },
     {   # Choppa
         "name":"Choppa",
-        "points":0,
         "notes":"",
         "profiles":[
             {
@@ -231,9 +243,149 @@ weapons = [
             },
         ],
     },
+    {   # Combi-melta
+        "name":"Combi-melta",
+        "notes":"When attacking with this weapon, choose one or both of the profiles below. If you choose both, subtract 1 from all hit rolls made for this weapon.",
+        "profiles":[
+            {
+                "pname":"Combi-melta [Boltgun]",
+                "stats":[
+                    {
+                        "range":"24\"",
+                        "type":"Rapid Fire 1",
+                        "strength":"4",
+                        "armorpen":"0",
+                        "damage":"1",
+                        "abilities":""
+                    },
+                ],
+            },
+            {
+                "pname":"Combi-melta [Meltagun]",
+                "stats":[
+                    {
+                        "range":"12\"",
+                        "type":"Assault 1",
+                        "strength":"8",
+                        "armorpen":"-4",
+                        "damage":"D6",
+                        "abilities":"If the target is within half range of this weapon, roll two dice when inflicting damage with it and discard the lowest result."
+                    },
+                ],
+            },
+        ],
+    },
+    {   # Combi-melta
+        "name":"Combi-plasma",
+        "notes":"When attacking with this weapon, choose one or both of the profiles below. If you choose both, subtract 1 from all hit rolls made for this weapon.",
+        "profiles":[
+            {
+                "pname":"Combi-melta [Boltgun]",
+                "stats":[
+                    {
+                        "range":"24\"",
+                        "type":"Rapid Fire 1",
+                        "strength":"4",
+                        "armorpen":"0",
+                        "damage":"1",
+                        "abilities":""
+                    },
+                ],
+            },
+            {
+                "pname":"Combi-melta [Plasma Gun]",
+                "stats":[
+                    {
+                        "range":"24\"",
+                        "type":"Rapid Fire 1",
+                        "strength":"7",
+                        "armorpen":"-3",
+                        "damage":"1",
+                        "abilities":"This weapon can be supercharged by the bearer before firing. If they do so, increase the Strength and Damage of the weapon by 1 this turn. On any unmodified hit rolls of 1 when firing supercharge, the bearer is taken out of action after all of the weapon’s shots have been resolved."
+                    },
+                ],
+            },
+        ],
+    },
+    {   # Deathwatch Frag Cannon
+        "name":"Deathwatch Frag Cannon",
+        "notes":"When attacking with this weapon, choose one of the profiles below.",
+        "profiles":[
+            {
+                "pname":"Deathwatch Frag Cannon [Frag Round]",
+                "stats":[
+                    {
+                        "range":"8\"",
+                        "type":"Assault 2D6",
+                        "strength":"6",
+                        "armorpen":"-1",
+                        "damage":"1",
+                        "abilities":"This weapon automatically hits its target."
+                    },
+                ],
+            },
+            {
+                "pname":"Deathwatch Frag Cannon [Shell]",
+                "stats":[
+                    {
+                        "range":"24\"",
+                        "type":"Assault 2",
+                        "strength":"7",
+                        "armorpen":"-2",
+                        "damage":"2",
+                        "abilities":"If the target is within half range of this weapon, its attacks are resolved with a Strength of 9 and an AP of -3."
+                    },
+                ],
+            },
+        ],
+    },
+    {   # Deathwatch Shotgun
+        "name":"Deathwatch Shotgun",
+        "notes":"When attacking with this weapon, choose one of the profiles below.",
+        "profiles":[
+            {
+                "pname":"Deathwatch Shotgun [Cryptclearer Round]",
+                "stats":[
+                    {
+                        "range":"16\"",
+                        "type":"Assault 2",
+                        "strength":"4",
+                        "armorpen":"0",
+                        "damage":"1",
+                        "abilities":"You can re-roll failed wound rolls for this weapon."
+                    },
+                ],
+            },
+            {
+                "pname":"Deathwatch Shotgun [Xenopurge Slug]",
+                "stats":[
+                    {
+                        "range":"16\"",
+                        "type":"Assault 2",
+                        "strength":"4",
+                        "armorpen":"-1",
+                        "damage":"1",
+                        "abilities":"If the target is within half range of this weapon, its attacks are resolved with a Damage of 2."
+                    },
+                ],
+            },
+            {
+                "pname":"Deathwatch Shotgun [Wyrmsbreath Shell]",
+                "stats":[
+                    {
+                        "range":"7\"",
+                        "type":"Assault D6",
+                        "strength":"3",
+                        "armorpen":"0",
+                        "damage":"1",
+                        "abilities":"This weapon automatically hits its target."
+                    },
+                ],
+            },
+        ],
+    },
     {   # Deffgun
         "name":"Deffgun",
-        "points":0,
         "notes":"",
         "profiles":[
             {
@@ -253,7 +405,6 @@ weapons = [
     },
     {   # Flamer
         "name":"Flamer",
-        "points":3,
         "notes":"",
         "profiles":[
             {
@@ -290,9 +441,8 @@ weapons = [
             },
         ],
     },
-    {   # Frag Grenades
-        "name":"Frag Grenades",
-        "points":0,
+    {   # Frag Grenade
+        "name":"Frag Grenade",
         "notes":"",
         "profiles":[
             {
@@ -312,7 +462,6 @@ weapons = [
     },
     {   # Fusion Blaster
         "name":"Fusion Blaster",
-        "points":4,
         "notes":"",
         "profiles":[
             {
@@ -351,7 +500,6 @@ weapons = [
     },
     {   # Grenade Launcher
         "name":"Grenade Launcher",
-        "points":2,
         "notes":"When attacking with this weapon, choose one of the profiles below.",
         "profiles":[
             {
@@ -384,7 +532,6 @@ weapons = [
     },
     {   # Grot Blasta
         "name":"Grot Blasta",
-        "points":0,
         "notes":"",
         "profiles":[
             {
@@ -402,9 +549,27 @@ weapons = [
             },
         ],
     },
+    {   # Heavy Thunder Hammer
+        "name":"Heavy Thunder Hammer",
+        "notes":"",
+        "profiles":[
+            {
+                "pname":"Heavy Thunder Hammer",
+                "stats":[
+                    {
+                        "range":"Melee",
+                        "type":"Melee",
+                        "strength":"x2",
+                        "armorpen":"-3",
+                        "damage":"D6",
+                        "abilities":"When attacking with this weapon, you must subtract 1 from the hit roll. Each time you make a wound roll of 6+ with this weapon, that hit is resolved with a Damage of 6."
+                    },
+                ],
+            },
+        ],
+    },
     {   # Hot-shot Lasgun
         "name":"Hot-shot Lasgun",
-        "points":0,
         "notes":"",
         "profiles":[
             {
@@ -424,7 +589,6 @@ weapons = [
     },
     {   # Hot-shot Laspistol
         "name":"Hot-shot Laspistol",
-        "points":0,
         "notes":"",
         "profiles":[
             {
@@ -444,7 +608,6 @@ weapons = [
     },
     {   # Hot-shot Volley Gun
         "name":"Hot-shot Volley Gun",
-        "points":3,
         "notes":"",
         "profiles":[
             {
@@ -462,9 +625,59 @@ weapons = [
             },
         ],
     },
+    {   # Incinerator
+        "name":"Incinerator",
+        "notes":"",
+        "profiles":[
+            {
+                "pname":"Incinerator",
+                "stats":[
+                    {
+                        "range":"8\"",
+                        "type":"Assault D6",
+                        "strength":"6",
+                        "armorpen":"-1",
+                        "damage":"1",
+                        "abilities":"This weapon automatically hits its target."
+                    },
+                ],
+            },
+        ],
+    },
+    {   # Infernus Heavy Bolter
+        "name":"Infernus Heavy Bolter",
+        "notes":"When attacking with this weapon, choose one or both of the profiles below. If you choose both, subtract 1 from all hit rolls made for this weapon.",
+        "profiles":[
+            {
+                "pname":"Infernus Heavy Bolter [Heavy Bolter]",
+                "stats":[
+                    {
+                        "range":"36\"",
+                        "type":"Heavy 3",
+                        "strength":"5",
+                        "armorpen":"-1",
+                        "damage":"1",
+                        "abilities":""
+                    },
+                ],
+            },
+            {
+                "pname":"Infernus Heavy Bolter [Heavy Flamer]",
+                "stats":[
+                    {
+                        "range":"8\"",
+                        "type":"Assault D6",
+                        "strength":"5",
+                        "armorpen":"-1",
+                        "damage":"1",
+                        "abilities":"This weapon automatically hits its target."
+                    },
+                ],
+            },
+        ],
+    },
     {   # Ion Rifle
         "name":"Ion Rifle",
-        "points":3,
         "notes":"When attacking with this weapon, choose one of the profiles below.",
         "profiles":[
             {
@@ -495,13 +708,12 @@ weapons = [
             },
         ],
     },
-    {   # Kombi-Weapon w/ Rokkit Launcha
-        "name":"Kombi-Weapon w/ Rokkit Launcha",
-        "points":3,
+    {   # Kombi-weapon w/ Rokkit Launcha
+        "name":"Kombi-weapon w/ Rokkit Launcha",
         "notes":"When attacking with this weapon, choose one or both of the profiles below. If you choose both, subtract 1 from all hit rolls made for this weapon.",
         "profiles":[
             {
-                "pname":"Kombi-Weapon w/ Rokkit Launcha [Rokkit Launcha]",
+                "pname":"Kombi-weapon w/ Rokkit Launcha [Rokkit Launcha]",
                 "stats":[
                     {
                         "range":"24\"",
@@ -514,7 +726,7 @@ weapons = [
                 ],
             },
             {
-                "pname":"Kombi-Weapon w/ Rokkit Launcha [Shoota]",
+                "pname":"Kombi-weapon w/ Rokkit Launcha [Shoota]",
                 "stats":[
                     {
                         "range":"18\"",
@@ -528,13 +740,12 @@ weapons = [
             },
         ],
     },
-    {   # Kombi-Weapon w/ Skorcha
-        "name":"Kombi-Weapon w/ Skorcha",
-        "points":4,
+    {   # Kombi-weapon w/ Skorcha
+        "name":"Kombi-weapon w/ Skorcha",
         "notes":"When attacking with this weapon, choose one or both of the profiles below. If you choose both, subtract 1 from all hit rolls made for this weapon.",
         "profiles":[
             {
-                "pname":"Kombi-Weapon w/ Skorcha [Skorcha]",
+                "pname":"Kombi-weapon w/ Skorcha [Skorcha]",
                 "stats":[
                     {
                         "range":"8\"",
@@ -547,7 +758,7 @@ weapons = [
                 ],
             },
             {
-                "pname":"Kombi-Weapon w/ Skorcha [Shoota]",
+                "pname":"Kombi-weapon w/ Skorcha [Shoota]",
                 "stats":[
                     {
                         "range":"18\"",
@@ -561,9 +772,8 @@ weapons = [
             },
         ],
     },
-    {   # Krak Grenades
-        "name":"Krak Grenades",
-        "points":0,
+    {   # Krak Grenade
+        "name":"Krak Grenade",
         "notes":"",
         "profiles":[
             {
@@ -581,12 +791,11 @@ weapons = [
             },
         ],
     },
-    {   # Kustom Mega-Blasta
-        "name":"Kustom Mega-Blasta",
-        "points":0,
+    {   # Kustom Mega-blasta
+        "name":"Kustom Mega-blasta",
         "profiles":[
             {
-                "pname":"Kustom Mega-Blasta",
+                "pname":"Kustom Mega-blasta",
                 "stats":[
                     {
                         "range":"24\"",
@@ -602,7 +811,6 @@ weapons = [
     },
     {   # Lasgun
         "name":"Lasgun",
-        "points":0,
         "notes":"",
         "profiles":[
             {
@@ -622,7 +830,6 @@ weapons = [
     },
     {   # Laspistol
         "name":"Laspistol",
-        "points":0,
         "notes":"",
         "profiles":[
             {
@@ -642,7 +849,6 @@ weapons = [
     },
     {   # Markerlight
         "name":"Markerlight",
-        "points":0,
         "notes":"",
         "profiles":[
             {
@@ -679,7 +885,6 @@ weapons = [
     },
     {   # Meltagun
         "name":"Meltagun",
-        "points":3,
         "notes":"",
         "profiles":[
             {
@@ -699,7 +904,6 @@ weapons = [
     },
     {   # Missle Pod
         "name":"Missile Pod",
-        "points":7,
         "notes":"",
         "profiles":[
             {
@@ -712,6 +916,101 @@ weapons = [
                         "armorpen":"-1",
                         "damage":"D3",
                         "abilities":""
+                    },
+                ],
+            },
+        ],
+    },
+    {   # Nemesis Daemon Hammer
+        "name":"Nemesis Daemon Hammer",
+        "notes":"",
+        "profiles":[
+            {
+                "pname":"Nemesis Daemon Hammer",
+                "stats":[
+                    {
+                        "range":"Melee",
+                        "type":"Melee",
+                        "strength":"x2",
+                        "armorpen":"-3",
+                        "damage":"3",
+                        "abilities":"When attacking with this weapon, you must subtract 1 from the hit roll."
+                    },
+                ],
+            },
+        ],
+    },
+    {   # Nemesis Falchion
+        "name":"Nemesis Falchion",
+        "notes":"",
+        "profiles":[
+            {
+                "pname":"Nemesis Falchion",
+                "stats":[
+                    {
+                        "range":"Melee",
+                        "type":"Melee",
+                        "strength":"User",
+                        "armorpen":"-2",
+                        "damage":"D3",
+                        "abilities":"If a model is armed with two Nemesis Falchions, each time it fights it can make 1 additional attack with them."
+                    },
+                ],
+            },
+        ],
+    },
+    {   # Nemesis Force Halberd
+        "name":"Nemesis Force Halberd",
+        "notes":"",
+        "profiles":[
+            {
+                "pname":"Nemesis Force Halberd",
+                "stats":[
+                    {
+                        "range":"Melee",
+                        "type":"Melee",
+                        "strength":"+1",
+                        "armorpen":"-2",
+                        "damage":"D3",
+                        "abilities":""
+                    },
+                ],
+            },
+        ],
+    },
+    {   # Nemesis Force Sword
+        "name":"Nemesis Force Sword",
+        "notes":"",
+        "profiles":[
+            {
+                "pname":"Nemesis Force Sword",
+                "stats":[
+                    {
+                        "range":"Melee",
+                        "type":"Melee",
+                        "strength":"User",
+                        "armorpen":"-3",
+                        "damage":"D3",
+                        "abilities":""
+                    },
+                ],
+            },
+        ],
+    },
+    {   # Nemesis Warding Stave
+        "name":"Nemesis Warding Stave",
+        "notes":"",
+        "profiles":[
+            {
+                "pname":"Nemesis Warding Stave",
+                "stats":[
+                    {
+                        "range":"Melee",
+                        "type":"Melee",
+                        "strength":"+2",
+                        "armorpen":"-1",
+                        "damage":"D3",
+                        "abilities":"A model armed with this weapon has a 5+ invulnerable save against attacks made in the Fight phase. If it already has an invulnerable save, add 1 to invulnerable saving throws you make for it in the Fight phase instead."
                     },
                 ],
             },
@@ -738,7 +1037,6 @@ weapons = [
     },
     {   # Photon Grenade
         "name":"Photon Grenade",
-        "points":0,
         "notes":"",
         "profiles":[
             {
@@ -790,7 +1088,6 @@ weapons = [
     },
     {   # Plasma Gun
         "name":"Plasma Gun",
-        "points":3,
         "notes":"When attacking with this weapon, choose one of the profiles below.",
         "profiles":[
             {
@@ -823,7 +1120,6 @@ weapons = [
     },
     {   # Plasma Pistol
         "name":"Plasma Pistol",
-        "points":1,
         "notes":"When attacking with this weapon, choose one of the profiles below.",
         "profiles":[
             {
@@ -856,7 +1152,6 @@ weapons = [
     },
     {   # Power Fist
         "name":"Power Fist",
-        "points":2,
         "notes":"",
         "profiles":[
             {
@@ -876,7 +1171,6 @@ weapons = [
     },
     {   # Power Klaw
         "name":"Power Klaw",
-        "points":4,
         "notes":"",
         "profiles":[
             {
@@ -894,9 +1188,27 @@ weapons = [
             },
         ],
     },
+    {   # Power Maul
+        "name":"Power Maul",
+        "notes":"",
+        "profiles":[
+            {
+                "pname":"Power Maul",
+                "stats":[
+                    {
+                        "range":"Melee",
+                        "type":"Melee",
+                        "strength":"+2",
+                        "armorpen":"-1",
+                        "damage":"1",
+                        "abilities":""
+                    },
+                ],
+            },
+        ],
+    },
     {   # Power Sword
         "name":"Power Sword",
-        "points":1,
         "notes":"",
         "profiles":[
             {
@@ -914,9 +1226,65 @@ weapons = [
             },
         ],
     },
+    {   # Psilencer
+        "name":"Psilencer",
+        "notes":"",
+        "profiles":[
+            {
+                "pname":"Psilencer",
+                "stats":[
+                    {
+                        "range":"24\"",
+                        "type":"Heavy 6",
+                        "strength":"4",
+                        "armorpen":"0",
+                        "damage":"D3",
+                        "abilities":""
+                    },
+                ],
+            },
+        ],
+    },
+    {   # Psycannon
+        "name":"Psycannon",
+        "notes":"",
+        "profiles":[
+            {
+                "pname":"Psycannon",
+                "stats":[
+                    {
+                        "range":"24\"",
+                        "type":"Heavy 4",
+                        "strength":"7",
+                        "armorpen":"-1",
+                        "damage":"1",
+                        "abilities":""
+                    },
+                ],
+            },
+        ],
+    },
+    {   # Psyk-out Grenade
+        "name":"Psyk-out Grenade",
+        "notes":"",
+        "profiles":[
+            {
+                "pname":"Psyk-out Grenade",
+                "stats":[
+                    {
+                        "range":"6\"",
+                        "type":"Grenade D3",
+                        "strength":"2",
+                        "armorpen":"0",
+                        "damage":"1",
+                        "abilities":"Each time you roll a hit of 6+ for this weapon when targeting a Psyker or Daemon, the target suffers a mortal wound instead of the normal damage."
+                    },
+                ],
+            },
+        ],
+    },
     {   # Pulse Blaster
         "name":"Pulse Blaster",
-        "points":0,
         "notes":"When attacking with this weapon, choose one of the profiles below.",
         "profiles":[
             {
@@ -962,7 +1330,6 @@ weapons = [
     },
     {   # Pulse Carbine
         "name":"Pulse Carbine",
-        "points":0,
         "notes":"",
         "profiles":[
             {
@@ -982,7 +1349,6 @@ weapons = [
     },
     {   # Pulse Pistol
         "name":"Pulse Pistol",
-        "points":0,
         "notes":"",
         "profiles":[
             {
@@ -1002,7 +1368,6 @@ weapons = [
     },
     {   # Pulse Rifle
         "name":"Pulse Rifle",
-        "points":0,
         "notes":"",
         "profiles":[
             {
@@ -1060,7 +1425,6 @@ weapons = [
     },
     {   # Rail Rifle
         "name":"Rail Rifle",
-        "points":5,
         "notes":"",
         "profiles":[
             {
@@ -1080,7 +1444,6 @@ weapons = [
     },
     {   # Rokkit Launcha
         "name":"Rokkit Launcha",
-        "points":3,
         "notes":"",
         "profiles":[
             {
@@ -1100,7 +1463,6 @@ weapons = [
     },
     {   # Shoota
         "name":"Shoota",
-        "points":0,
         "notes":"",
         "profiles":[
             {
@@ -1120,7 +1482,6 @@ weapons = [
     },
     {   # Slugga
         "name":"Slugga",
-        "points":0,
         "notes":"",
         "profiles":[
             {
@@ -1140,7 +1501,6 @@ weapons = [
     },
     {   # Smart Missle System
         "name":"Smart Missle System",
-        "points":5,
         "notes":"",
         "profiles":[
             {
@@ -1160,7 +1520,6 @@ weapons = [
     },
     {   # Sniper Rifle
         "name":"Sniper Rifle",
-        "points":1,
         "notes":"",
         "profiles":[
             {
@@ -1178,9 +1537,27 @@ weapons = [
             },
         ],
     },
+    {   # Stalker Pattern Boltgun
+        "name":"Stalker Pattern Boltgun",
+        "notes":"",
+        "profiles":[
+            {
+                "pname":"Stalker Pattern Boltgun",
+                "stats":[
+                    {
+                        "range":"30\"",
+                        "type":"Heavy 2",
+                        "strength":"4",
+                        "armorpen":"-1",
+                        "damage":"1",
+                        "abilities":""
+                    },
+                ],
+            },
+        ],
+    },
     {   # Stikkbomb
         "name":"Stikkbomb",
-        "points":0,
         "notes":"",
         "profiles":[
             {
@@ -1190,6 +1567,25 @@ weapons = [
                         "range":"6\"",
                         "type":"Grenade D6",
                         "strength":"3",
+                        "armorpen":"0",
+                        "damage":"1",
+                        "abilities":""
+                    },
+                ],
+            },
+        ],
+    },
+    {   # Storm Bolter
+        "name":"Storm Bolter",
+        "notes":"",
+        "profiles":[
+            {
+                "pname":"Storm Bolter",
+                "stats":[
+                    {
+                        "range":"24\"",
+                        "type":"Rapid Fire 2",
+                        "strength":"4",
                         "armorpen":"0",
                         "damage":"1",
                         "abilities":""
@@ -1288,6 +1684,25 @@ weapons = [
                         "armorpen":"-2",
                         "damage":"D3",
                         "abilities":"This weapon cannot be fired if the firing model moved during the Movement phase. A model firing a Transuranic Arquebus does not suffer the penalty to hit rolls for the target being at long range. Each time you make a wound roll of 6+ for this weapon, it inflicts a mortal wound in addition to the normal damage."
+                    },
+                ],
+            },
+        ],
+    },
+    {   # Xenophase Blade
+        "name":"Xenophase Blade",
+        "notes":"",
+        "profiles":[
+            {
+                "pname":"Xenophase Blade",
+                "stats":[
+                    {
+                        "range":"Melee",
+                        "type":"Melee",
+                        "strength":"User",
+                        "armorpen":"-3",
+                        "damage":"1",
+                        "abilities":"Your opponent must re-roll successful invulnerable saves for wounds caused by this weapon."
                     },
                 ],
             },

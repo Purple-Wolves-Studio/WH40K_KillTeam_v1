@@ -1,5 +1,37 @@
 # **Warhammer 40K Kill Team [Python Data Archive]**
 
+## v0.06.09.21
+
+### *Global Data Update*
+
+- Psykers
+  - Format updated
+
+- Specialists
+  - Format updated
+
+- Weapons
+  - Data updated
+
+### *Faction Data Update*
+
+- Astra Militarum [Wargear]
+  - Wargear data added
+
+- Deathwatch [Units]
+  - Unit data updated
+
+- Grey Knights [Wargear]
+  - Wargear data added
+
+- Orks [Wargear]
+  - Wargear data added
+
+- T'au Empire [Wargear]
+  - Wargear data added
+
+--------------------------------------------------------------------
+
 ## v0.06.04.21
 
 ### *Project Data Update*

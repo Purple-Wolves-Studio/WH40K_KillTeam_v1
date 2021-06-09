@@ -6,8 +6,10 @@ units = [
         "model":"Deathwatch Veteran",
         "faction":"Deathwatch",
         "keywords":[
-            "",
-            ""
+            "Imperium",
+            "Adeptus Astartes",
+            "Infantry",
+            "Deathwatch Veteran"
         ],
         "notes":"This model is armed with a Boltgun, Frag Grenades and Krak Grenades.",
         "types":[
