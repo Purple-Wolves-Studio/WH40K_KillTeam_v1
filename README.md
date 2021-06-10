@@ -1,5 +1,14 @@
 # **Warhammer 40K Kill Team [Python Data Archive]**
 
+## v0.06.10.21
+
+### Project Data
+
+- Project Notes
+  - Data migrated to Todoist
+
+--------------------------------------------------------------------
+
 ## v0.06.09.21
 
 ### *Global Data Update*
