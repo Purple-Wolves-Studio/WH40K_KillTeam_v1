@@ -1,5 +1,23 @@
 # **Warhammer 40K Kill Team [Python Data Archive]**
 
+## v0.06.16.21
+
+### Faction Data
+
+- Adeptus Astartes [Abilities]
+  - Repo created
+
+- Adeptus Astartes [Tactics]
+  - Repo created
+
+- Adeptus Astartes [Units]
+  - Repo created
+
+- Adeptus Astartes [Wargear]
+  - Repo created
+
+--------------------------------------------------------------------
+
 ## v0.06.10.21
 
 ### Project Data
