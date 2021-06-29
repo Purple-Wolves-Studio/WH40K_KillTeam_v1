@@ -1,5 +1,14 @@
 # **Warhammer 40K Kill Team [Python Data Archive]**
 
+## v0.06.29.21
+
+### Faction Data
+
+- Adeptus Astartes [Tactics]
+  - Data updated
+
+--------------------------------------------------------------------
+
 ## v0.06.16.21
 
 ### Faction Data
