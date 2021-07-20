@@ -1,19 +1,398 @@
-# Adeptus Astartes Unit Data Repo
+# Adeptus Astartes Unit Data
 
 
 units = [
-    {   # 
-        "model":"",
-        "faction":"",
+    {   # Scout Unit List
+        "model":"Scout",
+        "faction":"Adeptus Astartes",
         "keywords":[
-            "",
-            ""
+            "Imperium",
+            "Infantry",
+            "Scout"
+        ],
+        "notes":"This model is armed with a Boltgun, Bolt Pistol, Frag Grenades and Krak Grenades.",
+        "types":[
+            {   # Scout
+                "name":"Scout",
+                "points":0,
+                "stats":{
+                    "move":"\"",
+                    "wskill":"+",
+                    "bskill":"+",
+                    "strength":"",
+                    "tough":"",
+                    "wounds":"",
+                    "attack":"",
+                    "ldrship":"",
+                    "save":"+",
+                    "maxnum":""
+                },
+                "weapons":[
+                    "",
+                    ""
+                ],
+                "wargear":[
+                    "",
+                    ""
+                ],
+                "psyker":0,
+                "abilities":[
+                    "",
+                    ""
+                ],
+                "specialists":[
+                    "",
+                    "",
+                    ""
+                ],
+            },
+            {   # Scout Gunner
+                "name":"Scout Gunner",
+                "points":0,
+                "stats":{
+                    "move":"\"",
+                    "wskill":"+",
+                    "bskill":"+",
+                    "strength":"",
+                    "tough":"",
+                    "wounds":"",
+                    "attack":"",
+                    "ldrship":"",
+                    "save":"+",
+                    "maxnum":""
+                },
+                "weapons":[
+                    "",
+                    ""
+                ],
+                "wargear":[
+                    "",
+                    ""
+                ],
+                "psyker":0,
+                "abilities":[
+                    "",
+                    ""
+                ],
+                "specialists":[
+                    "",
+                    "",
+                    ""
+                ],
+            },
+            {   # Scout Sergeant
+                "name":"Scout Sergeant",
+                "points":0,
+                "stats":{
+                    "move":"\"",
+                    "wskill":"+",
+                    "bskill":"+",
+                    "strength":"",
+                    "tough":"",
+                    "wounds":"",
+                    "attack":"",
+                    "ldrship":"",
+                    "save":"+",
+                    "maxnum":""
+                },
+                "weapons":[
+                    "",
+                    ""
+                ],
+                "wargear":[
+                    "",
+                    ""
+                ],
+                "psyker":0,
+                "abilities":[
+                    "",
+                    ""
+                ],
+                "specialists":[
+                    "",
+                    "",
+                    ""
+                ],
+            },
+        ],
+    },
+    {   # Tactical Marine Unit List
+        "model":"Tactical Marine",
+        "faction":"Adeptus Astartes",
+        "keywords":[
+            "Imperium",
+            "Infantry",
+            "Tactical Marine"
         ],
         "notes":"",
         "types":[
-            {   # 
-                "name":"",
-                "points":0,
+            {   # Tactical Marine
+                "name":"Tactical Marine",
+                "points":,
+                "stats":{
+                    "move":"\"",
+                    "wskill":"+",
+                    "bskill":"+",
+                    "strength":"",
+                    "tough":"",
+                    "wounds":"",
+                    "attack":"",
+                    "ldrship":"",
+                    "save":"+",
+                    "maxnum":""
+                },
+                "weapons":[
+                    "",
+                    ""
+                ],
+                "wargear":[
+                    "",
+                    ""
+                ],
+                "psyker":0,
+                "abilities":[
+                    "",
+                    ""
+                ],
+                "specialists":[
+                    "",
+                    "",
+                    ""
+                ],
+            },
+            {   # Tactical Marine Gunner
+                "name":"Tactical Marine Gunner",
+                "points":,
+                "stats":{
+                    "move":"\"",
+                    "wskill":"+",
+                    "bskill":"+",
+                    "strength":"",
+                    "tough":"",
+                    "wounds":"",
+                    "attack":"",
+                    "ldrship":"",
+                    "save":"+",
+                    "maxnum":""
+                },
+                "weapons":[
+                    "",
+                    ""
+                ],
+                "wargear":[
+                    "",
+                    ""
+                ],
+                "psyker":0,
+                "abilities":[
+                    "",
+                    ""
+                ],
+                "specialists":[
+                    "",
+                    "",
+                    ""
+                ],
+            },
+            {   # Tactical Marine Sergeant
+                "name":"Tactical Marine Sergeant",
+                "points":,
+                "stats":{
+                    "move":"\"",
+                    "wskill":"+",
+                    "bskill":"+",
+                    "strength":"",
+                    "tough":"",
+                    "wounds":"",
+                    "attack":"",
+                    "ldrship":"",
+                    "save":"+",
+                    "maxnum":""
+                },
+                "weapons":[
+                    "",
+                    ""
+                ],
+                "wargear":[
+                    "",
+                    ""
+                ],
+                "psyker":0,
+                "abilities":[
+                    "",
+                    ""
+                ],
+                "specialists":[
+                    "",
+                    "",
+                    ""
+                ],
+            },
+        ],
+    },
+    {   # Reiver Unit List
+        "model":"Reiver",
+        "faction":"Adeptus Astartes",
+        "keywords":[
+            "Imperium",
+            "Infantry",
+            "Primaris",
+            "Reiver"
+        ],
+        "notes":"",
+        "types":[
+            {   # Reiver
+                "name":"Reiver",
+                "points":,
+                "stats":{
+                    "move":"\"",
+                    "wskill":"+",
+                    "bskill":"+",
+                    "strength":"",
+                    "tough":"",
+                    "wounds":"",
+                    "attack":"",
+                    "ldrship":"",
+                    "save":"+",
+                    "maxnum":""
+                },
+                "weapons":[
+                    "",
+                    ""
+                ],
+                "wargear":[
+                    "",
+                    ""
+                ],
+                "psyker":0,
+                "abilities":[
+                    "",
+                    ""
+                ],
+                "specialists":[
+                    "",
+                    "",
+                    ""
+                ],
+            },
+            {   # Reiver Sergeant
+                "name":"Reiver Sergeant",
+                "points":,
+                "stats":{
+                    "move":"\"",
+                    "wskill":"+",
+                    "bskill":"+",
+                    "strength":"",
+                    "tough":"",
+                    "wounds":"",
+                    "attack":"",
+                    "ldrship":"",
+                    "save":"+",
+                    "maxnum":""
+                },
+                "weapons":[
+                    "",
+                    ""
+                ],
+                "wargear":[
+                    "",
+                    ""
+                ],
+                "psyker":0,
+                "abilities":[
+                    "",
+                    ""
+                ],
+                "specialists":[
+                    "",
+                    "",
+                    ""
+                ],
+            },
+        ],
+    },
+    {   # Intercessor Unit List
+        "model":"Intercessor",
+        "faction":"Adeptus Astartes",
+        "keywords":[
+            "Imperium",
+            "Infantry",
+            "Primaris",
+            "Intercessor"
+        ],
+        "notes":"",
+        "types":[
+            {   # Intercessor
+                "name":"Intercessor",
+                "points":,
+                "stats":{
+                    "move":"\"",
+                    "wskill":"+",
+                    "bskill":"+",
+                    "strength":"",
+                    "tough":"",
+                    "wounds":"",
+                    "attack":"",
+                    "ldrship":"",
+                    "save":"+",
+                    "maxnum":""
+                },
+                "weapons":[
+                    "",
+                    ""
+                ],
+                "wargear":[
+                    "",
+                    ""
+                ],
+                "psyker":0,
+                "abilities":[
+                    "",
+                    ""
+                ],
+                "specialists":[
+                    "",
+                    "",
+                    ""
+                ],
+            },
+            {   # Intercessor Gunner
+                "name":"Intercessor Gunner",
+                "points":,
+                "stats":{
+                    "move":"\"",
+                    "wskill":"+",
+                    "bskill":"+",
+                    "strength":"",
+                    "tough":"",
+                    "wounds":"",
+                    "attack":"",
+                    "ldrship":"",
+                    "save":"+",
+                    "maxnum":""
+                },
+                "weapons":[
+                    "",
+                    ""
+                ],
+                "wargear":[
+                    "",
+                    ""
+                ],
+                "psyker":0,
+                "abilities":[
+                    "",
+                    ""
+                ],
+                "specialists":[
+                    "",
+                    "",
+                    ""
+                ],
+            },
+            {   # Intercessor Sergeant
+                "name":"Intercessor Sergeant",
+                "points":,
                 "stats":{
                     "move":"\"",
                     "wskill":"+",
