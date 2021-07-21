@@ -1,5 +1,50 @@
 # **Warhammer 40K Kill Team Database**
 
+## v0.07.21.21
+
+### Faction Data
+
+- Adeptus Astartes [Units]
+  - Data updated
+
+- Genestealer Cults [Abilities]
+  - Data added
+
+- Genestealer Cults [Tactics]
+  - Data added
+
+- Genestealer Cults [Units]
+  - Data added
+
+- Genestealer Cults [Wargear]
+  - Data added
+
+- Necrons [Abilities]
+  - Data added
+
+- Necrons [Tactics]
+  - Data added
+
+- Necrons [Units]
+  - Data added
+
+- Necrons [Wargear]
+  - Data added
+
+- Tyranids [Abilities]
+  - Data added
+
+- Tyranids [Tactics]
+  - Data added
+
+- Tyranids [Units]
+  - Data added
+
+- Tyranids [Wargear]
+  - Data added
+
+--------------------------------------------------------------------
+
 ## v0.07.20.21
 
 ### Project Data
