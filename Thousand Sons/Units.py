@@ -1,37 +1,6 @@
-# Faction Templates
+# Thousand Sons Units Data
 
-## Abilites Template
 
-```
-abilities = [
-    {   # 
-        "name":"",
-        "notes":"",
-        "orders":[
-            {
-                "ordname":"",
-                "ordnotes":""
-            },
-        ],
-    },
-],
-```
-
-## Tactics Templates
-
-```
-tactics = [
-    {   # 
-        "name":"",
-        "points":0,
-        "notes":""
-    },
-],
-```
-
-## Units Template
-
-```
 units = [
     {   # 
         "model":"",
@@ -79,15 +48,3 @@ units = [
         ],
     },
 ],
-```
-
-## Wargear Template
-
-```
-wargear = [
-    {   # 
-        "name":"",
-        "points":0,
-    },
-],
-```

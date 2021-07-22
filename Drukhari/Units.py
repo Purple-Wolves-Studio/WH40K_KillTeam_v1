@@ -1,37 +1,6 @@
-# Faction Templates
+# Drukhari Units Data
 
-## Abilites Template
 
-```
-abilities = [
-    {   # 
-        "name":"",
-        "notes":"",
-        "orders":[
-            {
-                "ordname":"",
-                "ordnotes":""
-            },
-        ],
-    },
-],
-```
-
-## Tactics Templates
-
-```
-tactics = [
-    {   # 
-        "name":"",
-        "points":0,
-        "notes":""
-    },
-],
-```
-
-## Units Template
-
-```
 units = [
     {   # 
         "model":"",
@@ -44,7 +13,7 @@ units = [
         "types":[
             {   # 
                 "name":"",
-                "points":0,
+                "points":,
                 "stats":{
                     "move":"\"",
                     "wskill":"+",
@@ -79,15 +48,3 @@ units = [
         ],
     },
 ],
-```
-
-## Wargear Template
-
-```
-wargear = [
-    {   # 
-        "name":"",
-        "points":0,
-    },
-],
-```

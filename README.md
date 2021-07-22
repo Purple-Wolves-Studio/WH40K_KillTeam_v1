@@ -1,5 +1,89 @@
 # **Warhammer 40K Kill Team Database**
 
+## v0.07.22.21
+
+### Project Data
+
+- Faction Template
+  - Tactics template updated
+  - Units template updated
+
+### Faction Data
+
+- Asuryani [Abilities]
+  - Data added
+
+- Asuryani [Tactics]
+  - Data added
+
+- Asuryani [Units]
+  - Data added
+
+- Asuryani [Wargear]
+  - Data added
+
+- Death Guard [Abilities]
+  - Data added
+
+- Death Guard [Tactics]
+  - Data added
+
+- Death Guard [Units]
+  - Data added
+
+- Death Guard [Wargear]
+  - Data added
+
+- Drukhari [Abilities]
+  - Data added
+
+- Drukhari [Tactics]
+  - Data added
+
+- Drukhari [Units]
+  - Data added
+
+- Drukhari [Wargear]
+  - Data added
+
+- Harlequins [Abilities]
+  - Data added
+
+- Harlequins [Tactics]
+  - Data added
+
+- Harlequins [Units]
+  - Data added
+
+- Harlequins [Wargear]
+  - Data added
+
+- Heretic Astartes [Abilities]
+  - Data added
+
+- Heretic Astartes [Tactics]
+  - Data added
+
+- Heretic Astartes [Units]
+  - Data added
+
+- Heretic Astartes [Wargear]
+  - Data added
+
+- Thousand Sons [Abilities]
+  - Data added
+
+- Thousand Sons [Tactics]
+  - Data added
+
+- Thousand Sons [Units]
+  - Data added
+
+- Thousand Sons [Wargear]
+  - Data added
+
+--------------------------------------------------------------------
+
 ## v0.07.21.21
 
 ### Faction Data
