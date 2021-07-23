@@ -1,5 +1,43 @@
 # **Warhammer 40K Kill Team Database**
 
+## v0.07.23.21
+
+### Factions
+
+- Folder called Factions created
+  - All faction folders migrated to Factions
+
+- Harlequins [Abilities]
+  - Data updated
+
+- Harlequins [Tactics]
+  - Data updated
+
+- Harlequins [Units]
+  - Data updated
+
+- Harlequins [Wargear]
+  - Data updated
+
+### Global
+
+- Global Data folder renamed Global
+
+- Weapons
+  - Data updated
+
+### Killzones
+
+- Killzone folder renamed to Killzones
+
+### Templates
+
+- Folder #ProjectData renamed to Templates
+  - Faction Template renamed Factions
+  - Global Template renamed Global
+
+--------------------------------------------------------------------
+
 ## v0.07.22.21
 
 ### Project Data
