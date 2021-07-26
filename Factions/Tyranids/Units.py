@@ -2,8 +2,8 @@
 
 
 units = [
-    {   # 
-        "model":"",
+    {   # Genestealer
+        "model":"Genestealer",
         "faction":"",
         "keywords":[
             "",
@@ -11,9 +11,223 @@ units = [
         ],
         "notes":"",
         "types":[
-            {   # 
-                "name":"",
-                "points":,
+            {   # Genestealer
+                "name":"Genestealer",
+                "points":11,
+                "stats":{
+                    "move":"\"",
+                    "wskill":"+",
+                    "bskill":"+",
+                    "strength":"",
+                    "tough":"",
+                    "wounds":"",
+                    "attack":"",
+                    "ldrship":"",
+                    "save":"+",
+                    "maxnum":""
+                },
+                "weapons":[
+                    "",
+                    ""
+                ],
+                "wargear":[
+                    "",
+                    ""
+                ],
+                "psyker":0,
+                "abilities":[
+                    "",
+                    ""
+                ],
+                "specialists":[
+                    "",
+                    "",
+                    ""
+                ],
+            },
+        ],
+    },
+    {   # Hormagaunt
+        "model":"Hormagaunt",
+        "faction":"",
+        "keywords":[
+            "",
+            ""
+        ],
+        "notes":"",
+        "types":[
+            {   # Hormagaunt
+                "name":"Hormagaunt",
+                "points":4,
+                "stats":{
+                    "move":"\"",
+                    "wskill":"+",
+                    "bskill":"+",
+                    "strength":"",
+                    "tough":"",
+                    "wounds":"",
+                    "attack":"",
+                    "ldrship":"",
+                    "save":"+",
+                    "maxnum":""
+                },
+                "weapons":[
+                    "",
+                    ""
+                ],
+                "wargear":[
+                    "",
+                    ""
+                ],
+                "psyker":0,
+                "abilities":[
+                    "",
+                    ""
+                ],
+                "specialists":[
+                    "",
+                    "",
+                    ""
+                ],
+            },
+        ],
+    },
+    {   # Lictor
+        "model":"Lictor",
+        "faction":"",
+        "keywords":[
+            "",
+            ""
+        ],
+        "notes":"",
+        "types":[
+            {   # Lictor
+                "name":"Lictor",
+                "points":25,
+                "stats":{
+                    "move":"\"",
+                    "wskill":"+",
+                    "bskill":"+",
+                    "strength":"",
+                    "tough":"",
+                    "wounds":"",
+                    "attack":"",
+                    "ldrship":"",
+                    "save":"+",
+                    "maxnum":""
+                },
+                "weapons":[
+                    "",
+                    ""
+                ],
+                "wargear":[
+                    "",
+                    ""
+                ],
+                "psyker":0,
+                "abilities":[
+                    "",
+                    ""
+                ],
+                "specialists":[
+                    "",
+                    "",
+                    ""
+                ],
+            },
+        ],
+    },
+    {   # Termagant
+        "model":"Termagant",
+        "faction":"",
+        "keywords":[
+            "",
+            ""
+        ],
+        "notes":"",
+        "types":[
+            {   # Termagant
+                "name":"Termagant",
+                "points":4,
+                "stats":{
+                    "move":"\"",
+                    "wskill":"+",
+                    "bskill":"+",
+                    "strength":"",
+                    "tough":"",
+                    "wounds":"",
+                    "attack":"",
+                    "ldrship":"",
+                    "save":"+",
+                    "maxnum":""
+                },
+                "weapons":[
+                    "",
+                    ""
+                ],
+                "wargear":[
+                    "",
+                    ""
+                ],
+                "psyker":0,
+                "abilities":[
+                    "",
+                    ""
+                ],
+                "specialists":[
+                    "",
+                    "",
+                    ""
+                ],
+            },
+        ],
+    },
+    {   # Tyranid Warrior
+        "model":"Tyranid Warrior",
+        "faction":"",
+        "keywords":[
+            "",
+            ""
+        ],
+        "notes":"",
+        "types":[
+            {   # Tyranid Warrior
+                "name":"Tyranid Warrior",
+                "points":20,
+                "stats":{
+                    "move":"\"",
+                    "wskill":"+",
+                    "bskill":"+",
+                    "strength":"",
+                    "tough":"",
+                    "wounds":"",
+                    "attack":"",
+                    "ldrship":"",
+                    "save":"+",
+                    "maxnum":""
+                },
+                "weapons":[
+                    "",
+                    ""
+                ],
+                "wargear":[
+                    "",
+                    ""
+                ],
+                "psyker":0,
+                "abilities":[
+                    "",
+                    ""
+                ],
+                "specialists":[
+                    "",
+                    "",
+                    ""
+                ],
+            },
+            {   # Tyranid Warrior Gunner
+                "name":"Tyranid Warrior Gunner",
+                "points":20,
                 "stats":{
                     "move":"\"",
                     "wskill":"+",

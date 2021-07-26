@@ -7,4 +7,29 @@ tactics = [
         "points":,
         "notes":""
     },
+    {   # 
+        "name":"",
+        "points":,
+        "notes":""
+    },
+    {   # 
+        "name":"",
+        "points":,
+        "notes":""
+    },
+    {   # 
+        "name":"",
+        "points":,
+        "notes":""
+    },
+    {   # 
+        "name":"",
+        "points":,
+        "notes":""
+    },
+    {   # 
+        "name":"",
+        "points":,
+        "notes":""
+    },
 ],
