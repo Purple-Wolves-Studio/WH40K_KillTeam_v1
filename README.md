@@ -1,5 +1,17 @@
 # **Warhammer 40K Kill Team Database**
 
+## v0.07.27.21
+
+### Factions
+
+- Tyranids [Abilities]
+  - Data updated
+
+- Tyranids [Tactics]
+  - Data updated
+
+--------------------------------------------------------------------
+
 ## v0.07.26.21
 
 ### Factions
