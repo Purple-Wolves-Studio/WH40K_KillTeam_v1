@@ -2,8 +2,8 @@
 
 
 units = [
-    {   # 
-        "model":"",
+    {   # Aberrant
+        "model":"Aberrant",
         "faction":"",
         "keywords":[
             "",
@@ -11,9 +11,314 @@ units = [
         ],
         "notes":"",
         "types":[
-            {   # 
-                "name":"",
-                "points":,
+            {   # Aberrant
+                "name":"Aberrant",
+                "points":15,
+                "stats":{
+                    "move":"\"",
+                    "wskill":"+",
+                    "bskill":"+",
+                    "strength":"",
+                    "tough":"",
+                    "wounds":"",
+                    "attack":"",
+                    "ldrship":"",
+                    "save":"+",
+                    "maxnum":""
+                },
+                "weapons":[
+                    "",
+                    ""
+                ],
+                "wargear":[
+                    "",
+                    ""
+                ],
+                "psyker":0,
+                "abilities":[
+                    "",
+                    ""
+                ],
+                "specialists":[
+                    "",
+                    "",
+                    ""
+                ],
+            },
+        ],
+    },
+    {   # Acolyte Hybrid
+        "model":"Acolyte Hybrid",
+        "faction":"",
+        "keywords":[
+            "",
+            ""
+        ],
+        "notes":"",
+        "types":[
+            {   # Acolyte Hybrid
+                "name":"Acolyte Hybrid",
+                "points":7,
+                "stats":{
+                    "move":"\"",
+                    "wskill":"+",
+                    "bskill":"+",
+                    "strength":"",
+                    "tough":"",
+                    "wounds":"",
+                    "attack":"",
+                    "ldrship":"",
+                    "save":"+",
+                    "maxnum":""
+                },
+                "weapons":[
+                    "",
+                    ""
+                ],
+                "wargear":[
+                    "",
+                    ""
+                ],
+                "psyker":0,
+                "abilities":[
+                    "",
+                    ""
+                ],
+                "specialists":[
+                    "",
+                    "",
+                    ""
+                ],
+            },
+            {   # Acolyte Fighter
+                "name":"Acolyte Fighter",
+                "points":8,
+                "stats":{
+                    "move":"\"",
+                    "wskill":"+",
+                    "bskill":"+",
+                    "strength":"",
+                    "tough":"",
+                    "wounds":"",
+                    "attack":"",
+                    "ldrship":"",
+                    "save":"+",
+                    "maxnum":""
+                },
+                "weapons":[
+                    "",
+                    ""
+                ],
+                "wargear":[
+                    "",
+                    ""
+                ],
+                "psyker":0,
+                "abilities":[
+                    "",
+                    ""
+                ],
+                "specialists":[
+                    "",
+                    "",
+                    ""
+                ],
+            },
+            {   # Acolyte Leader
+                "name":"Acolyte Leader",
+                "points":8,
+                "stats":{
+                    "move":"\"",
+                    "wskill":"+",
+                    "bskill":"+",
+                    "strength":"",
+                    "tough":"",
+                    "wounds":"",
+                    "attack":"",
+                    "ldrship":"",
+                    "save":"+",
+                    "maxnum":""
+                },
+                "weapons":[
+                    "",
+                    ""
+                ],
+                "wargear":[
+                    "",
+                    ""
+                ],
+                "psyker":0,
+                "abilities":[
+                    "",
+                    ""
+                ],
+                "specialists":[
+                    "",
+                    "",
+                    ""
+                ],
+            },
+        ],
+    },
+    {   # Hybrid Metamorph
+        "model":"Hybrid Metamorph",
+        "faction":"",
+        "keywords":[
+            "",
+            ""
+        ],
+        "notes":"",
+        "types":[
+            {   # Hybrid Metamorph
+                "name":"Hybrid Metamorph",
+                "points":8,
+                "stats":{
+                    "move":"\"",
+                    "wskill":"+",
+                    "bskill":"+",
+                    "strength":"",
+                    "tough":"",
+                    "wounds":"",
+                    "attack":"",
+                    "ldrship":"",
+                    "save":"+",
+                    "maxnum":""
+                },
+                "weapons":[
+                    "",
+                    ""
+                ],
+                "wargear":[
+                    "",
+                    ""
+                ],
+                "psyker":0,
+                "abilities":[
+                    "",
+                    ""
+                ],
+                "specialists":[
+                    "",
+                    "",
+                    ""
+                ],
+            },
+            {   # Metamorph Leader
+                "name":"Metamorph Leader",
+                "points":9,
+                "stats":{
+                    "move":"\"",
+                    "wskill":"+",
+                    "bskill":"+",
+                    "strength":"",
+                    "tough":"",
+                    "wounds":"",
+                    "attack":"",
+                    "ldrship":"",
+                    "save":"+",
+                    "maxnum":""
+                },
+                "weapons":[
+                    "",
+                    ""
+                ],
+                "wargear":[
+                    "",
+                    ""
+                ],
+                "psyker":0,
+                "abilities":[
+                    "",
+                    ""
+                ],
+                "specialists":[
+                    "",
+                    "",
+                    ""
+                ],
+            },
+        ],
+    },
+    {   # Neophyte Hybrid
+        "model":"Neophyte Hybrid",
+        "faction":"",
+        "keywords":[
+            "",
+            ""
+        ],
+        "notes":"",
+        "types":[
+            {   # Neophyte Hybrid
+                "name":"Neophyte Hybrid",
+                "points":5,
+                "stats":{
+                    "move":"\"",
+                    "wskill":"+",
+                    "bskill":"+",
+                    "strength":"",
+                    "tough":"",
+                    "wounds":"",
+                    "attack":"",
+                    "ldrship":"",
+                    "save":"+",
+                    "maxnum":""
+                },
+                "weapons":[
+                    "",
+                    ""
+                ],
+                "wargear":[
+                    "",
+                    ""
+                ],
+                "psyker":0,
+                "abilities":[
+                    "",
+                    ""
+                ],
+                "specialists":[
+                    "",
+                    "",
+                    ""
+                ],
+            },
+            {   # Neophyte Gunner
+                "name":"Neophyte Gunner",
+                "points":6,
+                "stats":{
+                    "move":"\"",
+                    "wskill":"+",
+                    "bskill":"+",
+                    "strength":"",
+                    "tough":"",
+                    "wounds":"",
+                    "attack":"",
+                    "ldrship":"",
+                    "save":"+",
+                    "maxnum":""
+                },
+                "weapons":[
+                    "",
+                    ""
+                ],
+                "wargear":[
+                    "",
+                    ""
+                ],
+                "psyker":0,
+                "abilities":[
+                    "",
+                    ""
+                ],
+                "specialists":[
+                    "",
+                    "",
+                    ""
+                ],
+            },
+            {   # Neophyte Leader
+                "name":"Neophyte Leader",
+                "points":6,
                 "stats":{
                     "move":"\"",
                     "wskill":"+",

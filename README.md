@@ -1,5 +1,20 @@
 # **Warhammer 40K Kill Team Database**
 
+## v0.07.28.21
+
+### Factions
+
+- Genestealer Cults [Units]
+  - Data updated
+
+- Genestealer Cults [Wargear]
+  - Data updated
+
+- Tyranids [Units]
+  - Data updated
+
+--------------------------------------------------------------------
+
 ## v0.07.27.21
 
 ### Factions
