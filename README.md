@@ -1,5 +1,32 @@
 # **Warhammer 40K Kill Team Database**
 
+## v0.07.29.21
+
+### Factions
+
+- Drukhari [Abilities]
+  - Data updated
+
+- Drukhari [Tactics]
+  - Data updated
+
+- Drukhari [Units]
+  - Data updated
+
+- Drukhari [Wargear]
+  - Data updated
+
+- Genestealer Cults [Abilities]
+  - Data updated
+
+- Genestealer Cults [Tactics]
+  - Data updated
+
+- Genestealer Cults [Units]
+  - Data updated
+
+--------------------------------------------------------------------
+
 ## v0.07.28.21
 
 ### Factions
