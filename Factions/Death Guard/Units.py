@@ -2,8 +2,8 @@
 
 
 units = [
-    {   # 
-        "model":"",
+    {   # Plague Marine
+        "model":"Plague Marine",
         "faction":"",
         "keywords":[
             "",
@@ -11,8 +11,155 @@ units = [
         ],
         "notes":"",
         "types":[
-            {   # 
-                "name":"",
+            {   # Plague Marine
+                "name":"Plague Marine",
+                "points":14,
+                "stats":{
+                    "move":"\"",
+                    "wskill":"+",
+                    "bskill":"+",
+                    "strength":"",
+                    "tough":"",
+                    "wounds":"",
+                    "attack":"",
+                    "ldrship":"",
+                    "save":"+",
+                    "maxnum":""
+                },
+                "weapons":[
+                    "",
+                    ""
+                ],
+                "wargear":[
+                    "",
+                    ""
+                ],
+                "psyker":0,
+                "abilities":[
+                    "",
+                    ""
+                ],
+                "specialists":[
+                    "",
+                    "",
+                    ""
+                ],
+            },
+            {   # Plague Marine Gunner
+                "name":"Plague Marine Gunner",
+                "points":15,
+                "stats":{
+                    "move":"\"",
+                    "wskill":"+",
+                    "bskill":"+",
+                    "strength":"",
+                    "tough":"",
+                    "wounds":"",
+                    "attack":"",
+                    "ldrship":"",
+                    "save":"+",
+                    "maxnum":""
+                },
+                "weapons":[
+                    "",
+                    ""
+                ],
+                "wargear":[
+                    "",
+                    ""
+                ],
+                "psyker":0,
+                "abilities":[
+                    "",
+                    ""
+                ],
+                "specialists":[
+                    "",
+                    "",
+                    ""
+                ],
+            },
+            {   # Plague Marine Fighter
+                "name":"Plague Marine Fighter",
+                "points":15,
+                "stats":{
+                    "move":"\"",
+                    "wskill":"+",
+                    "bskill":"+",
+                    "strength":"",
+                    "tough":"",
+                    "wounds":"",
+                    "attack":"",
+                    "ldrship":"",
+                    "save":"+",
+                    "maxnum":""
+                },
+                "weapons":[
+                    "",
+                    ""
+                ],
+                "wargear":[
+                    "",
+                    ""
+                ],
+                "psyker":0,
+                "abilities":[
+                    "",
+                    ""
+                ],
+                "specialists":[
+                    "",
+                    "",
+                    ""
+                ],
+            },
+            {   # Plague Champion
+                "name":"Plague Champion",
+                "points":15,
+                "stats":{
+                    "move":"\"",
+                    "wskill":"+",
+                    "bskill":"+",
+                    "strength":"",
+                    "tough":"",
+                    "wounds":"",
+                    "attack":"",
+                    "ldrship":"",
+                    "save":"+",
+                    "maxnum":""
+                },
+                "weapons":[
+                    "",
+                    ""
+                ],
+                "wargear":[
+                    "",
+                    ""
+                ],
+                "psyker":0,
+                "abilities":[
+                    "",
+                    ""
+                ],
+                "specialists":[
+                    "",
+                    "",
+                    ""
+                ],
+            },
+        ],
+    },
+    {   # PoxWalker
+        "model":"PoxWalker",
+        "faction":"",
+        "keywords":[
+            "",
+            ""
+        ],
+        "notes":"",
+        "types":[
+            {   # PoxWalker
+                "name":"PoxWalker",
                 "points":,
                 "stats":{
                     "move":"\"",
