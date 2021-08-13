@@ -1,5 +1,20 @@
 # **Warhammer 40K Kill Team Database**
 
+## v0.08.13.21
+
+### Factions
+
+- Death Guard [Abilities]
+  - Data updated
+
+- Death Guard [Tactics]
+  - Data updated
+
+- Death Guard [Units]
+  - Data updated
+
+--------------------------------------------------------------------
+
 ## v0.08.04.21
 
 ### Factions

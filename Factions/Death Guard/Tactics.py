@@ -15,21 +15,21 @@ tactics = [
     {   # Nurgling Infestation
         "name":"Nurgling Infestation",
         "points":2,
-        "notes":""
+        "notes":"Use this Tactic at the end of the Movement phase. Pick an enemy model within 1\" of your Leader and roll a D6. On a 4+ that enemy model suffers 1 mortal wound."
     },
     {   # Cloud of Flies
         "name":"Cloud of Flies",
         "points":2,
-        "notes":""
+        "notes":"Use this Tactic at the end of the Movement phase. Pick a model from your kill team. Until the end of the battle round, enemy models can only shoot that model if it is the closest target visible to them."
     },
     {   # Grandfather's Blessing
         "name":"Grandfather's Blessing",
         "points":2,
-        "notes":""
+        "notes":"Use this Tactic at the start of the first battle round. Pick a model from your kill team and roll a D6. On a 1 that model is found unworthy and suffers D3 mortal wounds. On a 2+ add 1 to hit and wound rolls for the model until the end of the battle. You can only use this Tactic once per battle."
     },
     {   # Nurgle's Gift
         "name":"Nurgle's Gift",
         "points":1,
-        "notes":""
+        "notes":"Use this Tactic after a Poxwalker from your kill team takes an enemy model out of action in the Fight phase. Roll a D6. On a 4+ you may set up a new Poxwalker within 1\" of the Poxwalker that made the attack. The new Poxwalker is treated as a member of your kill team, but is not part of a fire team and is not added to your command roster."
     },
 ],
