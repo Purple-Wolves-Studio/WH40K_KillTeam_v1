@@ -1,5 +1,64 @@
 # **Warhammer 40K Kill Team Database**
 
+## v0.08.16.21
+
+### Global
+
+- Abilities
+  - New repo created
+
+### Factions
+
+- Adeptus Astartes [Abilities]
+  - Data merged to new global repo
+
+- Adeptus Mechanicus [Abilities]
+  - Data merged to new global repo
+
+- Astra Militarum [Abilities]
+  - Data merged to new global repo
+
+- Asuryani [Abilities]
+  - Data merged to new global repo
+
+- Death Guard [Abilities]
+  - Data merged to new global repo
+
+- Deathwatch [Abilities]
+  - Data merged to new global repo
+
+- Drukhari [Abilities]
+  - Data merged to new global repo
+
+- Genestealer Cults [Abilities]
+  - Data merged to new global repo
+
+- Grey Knights [Abilities]
+  - Data merged to new global repo
+
+- Harlequins [Abilities]
+  - Data merged to new global repo
+
+- Heretic Astartes [Abilities]
+  - Data merged to new global repo
+
+- Necrons [Abilities]
+  - Data merged to new global repo
+
+- Orks [Abilities]
+  - Data merged to new global repo
+
+- Tau Empire [Abilities]
+  - Data merged to new global repo
+
+- Thousand Sons [Abilities]
+  - Data merged to new global repo
+
+- Tyranids [Abilities]
+  - Data merged to new global repo
+
+--------------------------------------------------------------------
+
 ## v0.08.13.21
 
 ### Factions
