@@ -1,25 +1,8 @@
 # Faction Templates
 
-## Abilites Template
-
-```
-abilities = [
-    {   # 
-        "name":"",
-        "notes":"",
-        "orders":[
-            {
-                "ordname":"",
-                "ordnotes":""
-            },
-        ],
-    },
-],
-```
-
 ## Tactics Templates
 
-```
+```python
 tactics = [
     {   # 
         "name":"",
@@ -31,7 +14,7 @@ tactics = [
 
 ## Units Template
 
-```
+```python
 units = [
     {   # 
         "model":"",
@@ -83,7 +66,7 @@ units = [
 
 ## Wargear Template
 
-```
+```python
 wargear = [
     {   # 
         "name":"",

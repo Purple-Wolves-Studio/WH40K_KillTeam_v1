@@ -1,8 +1,23 @@
 # Global Templates
 
+## Abilities Template
+
+```python
+{   # 
+        "name":"",
+        "notes":"",
+        "orders":[
+            {
+                "ordname":"",
+                "ordnotes":""
+            },
+        ],
+    },
+```
+
 ## Psykers Template
 
-```
+```python
 psykers = [
     {   # 
         "name":"",
@@ -14,7 +29,7 @@ psykers = [
 
 ## Specialist Template
 
-```
+```python
 specialists = [
     {   # 
         "specname":"",
@@ -88,7 +103,7 @@ specialists = [
 
 ## Weapons Template
 
-```
+```python
 weapons = [
     {   # 
         "name":"",

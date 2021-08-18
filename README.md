@@ -1,5 +1,24 @@
 # **Warhammer 40K Kill Team Database**
 
+## v0.08.18.21
+
+### Templates
+
+- Factions
+  - Abilities template removed
+  - Templates updated
+
+- Factions
+  - Abilities template added
+  - Templates updated
+
+### Factions
+
+- Thousand Sons [Tactics]
+  - Data updated
+
+--------------------------------------------------------------------
+
 ## v0.08.16.21
 
 ### Global
