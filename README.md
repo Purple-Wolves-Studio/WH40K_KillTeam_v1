@@ -1,5 +1,20 @@
 # **Warhammer 40K Kill Team Database**
 
+## v0.08.19.21
+
+### Factions
+
+- Thousand Sons [Tactics]
+  - Data updated
+
+- Thousand Sons [Wargear]
+  - Data updated
+
+- Thousand Sons [Units]
+  - Data updated
+
+--------------------------------------------------------------------
+
 ## v0.08.18.21
 
 ### Templates
