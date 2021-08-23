@@ -32,18 +32,20 @@ units = [
                 },
                 "weapons":"Inferno Boltgun",
                 "wargear":[
-                    "",
-                    ""
+                    "Warpflamer",
+                    "Icon of Flame"
                 ],
                 "psyker":0,
                 "abilities":[
-                    "",
-                    ""
+                    "Death to the Flase Emperor",
+                    "All is Dust",
+                    "Favoured of Tzeentch",
+                    "Icon of Flame"
                 ],
                 "specialists":[
-                    "",
-                    "",
-                    ""
+                    "Combat",
+                    "Demolitions",
+                    "Veteran"
                 ],
             },
             {   # Rubric Marine Gunner
@@ -62,24 +64,23 @@ units = [
                     "maxnum":"1"
                 },
                 "weapons":"Inferno Boltgun",
-                "wargear":[
-                    "",
-                    ""
-                ],
+                "wargear":"Soulreaper Cannon",
                 "psyker":0,
                 "abilities":[
-                    "",
-                    ""
+                    "Death to the Flase Emperor",
+                    "All is Dust",
+                    "Favoured of Tzeentch"
                 ],
                 "specialists":[
-                    "",
-                    "",
-                    ""
+                    "Heavy",
+                    "Combat",
+                    "Demolitions",
+                    "Veteran"
                 ],
             },
             {   # Aspiring Sorcerer
                 "name":"Aspiring Sorcerer",
-                "points":15,
+                "points":17,
                 "stats":{
                     "move":"6\"",
                     "wskill":"3+",
@@ -96,19 +97,19 @@ units = [
                     "Force Stave",
                     "Inferno Boltgun"
                 ],
-                "wargear":[
-                    "",
-                    ""
-                ],
-                "psyker":0,
+                "wargear":"Warpflame Pistol",
+                "psyker":1,
                 "abilities":[
-                    "",
-                    ""
+                    "Transhuman Physiology",
+                    "Death to the Flase Emperor",
+                    "All is Dust",
+                    "Favoured of Tzeentch"
                 ],
                 "specialists":[
-                    "",
-                    "",
-                    ""
+                    "Leader",
+                    "Combat",
+                    "Demolitions",
+                    "Veteran"
                 ],
             },
         ],
@@ -125,66 +126,68 @@ units = [
         ],
         "notes":"This model is armed with Tzaangor Blades.",
         "types":[
-            {   # Rubric Marine
-                "name":"Rubric Marine",
-                "points":0,
+            {   # Tzaangor
+                "name":"Tzaangor",
+                "points":7,
                 "stats":{
-                    "move":"5\"",
+                    "move":"6\"",
                     "wskill":"3+",
-                    "bskill":"3+",
+                    "bskill":"4+",
                     "strength":"4",
                     "tough":"4",
                     "wounds":"1",
                     "attack":"1",
-                    "ldrship":"7",
-                    "save":"3+",
+                    "ldrship":"6",
+                    "save":"6+",
                     "maxnum":""
                 },
-                "weapons":"Inferno Boltgun",
+                "weapons":"Tzaangor Blades",
                 "wargear":[
-                    "",
-                    ""
+                    "Autopistol",
+                    "Chainsword",
+                    "Brayhorn"
                 ],
                 "psyker":0,
                 "abilities":[
-                    "",
-                    ""
+                    "Aura of Dark Glory",
+                    "Brayhorn"
                 ],
                 "specialists":[
-                    "",
-                    "",
-                    ""
+                    "Comms",
+                    "Combat",
+                    "Medic",
+                    "Veteran",
+                    "Zealot"
                 ],
             },
-            {   # Rubric Marine Gunner
-                "name":"Rubric Marine Gunner",
-                "points":0,
+            {   # Twistbray
+                "name":"Twistbray",
+                "points":8,
                 "stats":{
-                    "move":"5\"",
+                    "move":"6\"",
                     "wskill":"3+",
-                    "bskill":"3+",
+                    "bskill":"4+",
                     "strength":"4",
                     "tough":"4",
                     "wounds":"1",
-                    "attack":"1",
+                    "attack":"2",
                     "ldrship":"7",
-                    "save":"3+",
+                    "save":"6+",
                     "maxnum":"1"
                 },
-                "weapons":"Inferno Boltgun",
+                "weapons":"Tzaangor Blades",
                 "wargear":[
-                    "",
-                    ""
+                    "Autopistol",
+                    "Chainsword"
                 ],
                 "psyker":0,
-                "abilities":[
-                    "",
-                    ""
-                ],
+                "abilities":"Aura of Dark Glory",
                 "specialists":[
-                    "",
-                    "",
-                    ""
+                    "Leader",
+                    "Combat",
+                    "Medic",
+                    "Veteran",
+                    "Zealot"
                 ],
             },
         ],

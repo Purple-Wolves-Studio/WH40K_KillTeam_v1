@@ -1,5 +1,23 @@
 # **Warhammer 40K Kill Team Database**
 
+## v0.08.23.21
+
+### Factions
+
+- Heretic Astartes [Tactics]
+  - Data updated
+
+- Heretic Astartes [Wargear]
+  - Data updated
+
+- Heretic Astartes [Units]
+  - Data updated
+
+- Thousand Sons [Units]
+  - Data updated
+
+--------------------------------------------------------------------
+
 ## v0.08.19.21
 
 ### Factions
