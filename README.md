@@ -1,5 +1,14 @@
 # **Warhammer 40K Kill Team Database**
 
+## v.0.10.25.21
+
+### Project Halted
+
+- Games Workshop has introduced a new version of the game, using new stats and systems to control characters.
+  - This project will continue at a later date to cover legacy rules for homebrew/vanilla.
+
+--------------------------------------------------------------------
+
 ## v0.08.23.21
 
 ### Factions
