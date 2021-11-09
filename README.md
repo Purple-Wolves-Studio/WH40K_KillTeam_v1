@@ -1,5 +1,13 @@
 # **Warhammer 40K Kill Team Database**
 
+## v.0.11.09.21
+
+### Version 2 Started
+
+- New version of this project can be found here: https://github.com/Purple-Wolves-Studio/WH40K_KillTeam_v2
+
+--------------------------------------------------------------------
+
 ## v.0.10.25.21
 
 ### Project Halted
